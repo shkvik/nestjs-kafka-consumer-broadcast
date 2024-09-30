@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { ExampleModule } from '../example/example.module';
+import { BroadcastModule } from '../broadcast/broadcast.module';
 
 @Module({
-  imports: [ExampleModule],
+  imports: [BroadcastModule]
 })
 export class AppModule {}
